@@ -8,7 +8,7 @@
   visibility: hidden;
 }
 .custom-file-input::before {
-  content: 'Select a game file';
+  content: 'Select a .hex file';
   color: #fff;
   display: block;
   background-color: #444;
@@ -42,7 +42,6 @@
 }
 
 form button {
-  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
   border: 1px solid #999;
   border-radius: 3px;
   padding: 5px 8px;
@@ -52,13 +51,10 @@ form button {
   cursor: pointer;
   clear: both;
   top: 10px;
-  position: relative;
 }
 
 .btn {
   background: #c334d9;
-  background-image: -webkit-linear-gradient(top, #c334d9, #2980b9);
-  background-image: linear-gradient(to bottom, #c334d9, #2980b9);
   border-radius: 4px;
   color: #ffffff;
   font-size: 20px;
@@ -69,7 +65,5 @@ form button {
 
 .btn:hover {
   background: #952aa6;
-  background-image: -webkit-linear-gradient(top, #952aa6, #1f5e85);
-  background-image: linear-gradient(to bottom, #952aa6, #1f5e85);
   text-decoration: none;
 }
