@@ -2,8 +2,17 @@
   "name": "Arduboy-Electron",
   "version": "0.1.0",
   "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "install": "electron-rebuild"
+  },
   "devDependencies": {
     "avrgirl-arduino": "^1.4.12",
-    "electron-rebuild": "^1.0.2"
+    "electron": "^1.6.0",
+    "electron-rebuild": "^1.6.0"
+  },
+  "dependencies": {
+    "serialport": "^4.0.7"
   }
+
 }
