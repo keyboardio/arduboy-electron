@@ -9,10 +9,13 @@
   "devDependencies": {
     "avrgirl-arduino": "^1.4.12",
     "electron": "^1.6.0",
+    "electron-packager": "^9.1.0",
     "electron-rebuild": "^1.6.0"
   },
   "dependencies": {
-    "serialport": "^4.0.7"
+    "serialport": "^6.0.0"
+  },
+  "build": {
+    "appId": "io.keyboard.builder"
   }
-
 }
