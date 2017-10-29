@@ -1,8 +1,16 @@
 (function() {
   var Avrgirl = require('avrgirl-arduino');
-
+  var board = {
+    name: 'model01',
+    baud: 57600,
+    signature: new Buffer([0x43, 0x41, 0x54, 0x45, 0x52, 0x49, 0x4e]),
+    productId: ['0x2300', '0x2301'],
+    protocol: 'avr109',
+  };
+  
+  
   var avrgirl = new Avrgirl({
-    board: 'leonardo',
+    board: board,
     debug: true
   });
 
