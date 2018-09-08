@@ -4,16 +4,18 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "install": "electron-rebuild"
+    "install": "electron-rebuild",
+    "package": "electron-packager . Model01Uploader-Test --all --no-prune --overwrite"
   },
   "devDependencies": {
     "avrgirl-arduino": "^1.4.12",
-    "electron": "^1.6.0",
+    "electron": "^1.7.9",
+    "electron-builder": "^19.47.1",
     "electron-packager": "^9.1.0",
-    "electron-rebuild": "^1.6.0"
+    "electron-rebuild": "^1.7.9"
   },
   "dependencies": {
-    "serialport": "^6.0.0"
+    "serialport": "^6.0.4"
   },
   "build": {
     "appId": "io.keyboard.builder"
